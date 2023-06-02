@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Cart</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="brand">
+        <a href="/">MeShop.</a>
+      </div>
+
+      <div class="navItems">
+        <a href="../shop/index.html">Home Page</a>
+        <a href="../cart/index.html">Cart Page</a>
+      </div>
+    </nav>
+
+
+
+    <div class="header">
+      <h1>My Cart</h1>
+
+    </div>
+    <main-content>
+      <aside>
+        <div id="heading-list">Checkout List</div>
+        <div id="items-list"></div>
+        <div id="total-items"><p>Total</p><span id="total-price"></span></div>
+        <div id="checkout-list">
+          <button id="pay-btn">click to checkout</button>
+        </div>
+     
+      </aside>
+
+      <section id="carts"><title>Cart Items</title>
+      
+      <div class="items" id="cart-items">
+
+      </div></section>
+    </main-content>
+    <script src="./script.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  </body>
+</html>
